@@ -35,13 +35,13 @@ export default function Laskin({ navigation }) {
         Result: {result}
       </Text>
       <TextInput
-        style={{width:100, borderColor: 'gray', borderWidth:1}}
+        style={{width:100, borderColor: 'gray', borderWidth:1, backgroundColor: 'white'}}
         keyboardType='numeric'
         onChangeText={input => setInput1(input)}
         value={input1}
       />
       <TextInput
-        style={{width:100, borderColor: 'gray', borderWidth:1}}
+        style={{width:100, borderColor: 'gray', borderWidth:1, backgroundColor: 'white'}}
         keyboardType='numeric'
         onChangeText={input => setInput2(input)}
         value={input2}
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'column',
-    backgroundColor: '#fff',
+    backgroundColor: 'pink',
     alignItems: 'center',
     justifyContent: 'center',
   },
